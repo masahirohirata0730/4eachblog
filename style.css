@@ -1,0 +1,103 @@
+.header img {
+  width: 300px;
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: black;
+  color: white;
+}
+
+header li {
+  list-style: none;
+  margin-right: 60px;
+}
+
+/* headerここまで*/
+
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+/* mainここまで*/
+
+.container {
+  width: 70%;
+}
+
+.container h1 {
+  border-left: 4px solid black;
+  border-bottom: 2px solid black;
+  padding-left: 10px;
+}
+
+/* containerここまで*/
+.box1_pic {
+  width: 100%;
+}
+
+/* box1ここまで*/
+.box2-container {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.box2-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 22%);
+  justify-content: center;
+  align-items: center;
+  gap: 28px 3%;
+  padding: 30px 25px;
+}
+
+.box2_pic {
+  text-align: center;
+}
+
+.box2_pic p {
+  margin: 0;
+}
+
+.box2_pic img {
+  width: 100%;
+}
+
+/* box2ここまで*/
+
+.aside {
+  width: 30%;
+  margin-left: 25px;
+}
+
+.aside h2 {
+  border-bottom: 2px solid black;
+  margin-top: 33px;
+  margin-bottom: 0;
+}
+
+.aside li {
+  list-style-type: none;
+  margin: 10px 0 10px 0;
+}
+
+/* aisdeここまで*/
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 16px 0;
+  margin-top: 32px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* footerここまで*/
